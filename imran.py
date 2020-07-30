@@ -25,13 +25,13 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('User-Agent','Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 #### colours ####
-B='\033[1;94m'
-R='\033[1;91m'
-G='\033[1;92m'
-W='\033[1;97m'
-S='\033[1;96m'
-P='\033[1;95m'
-Y='\033[1;93m'
+I='\033[1;94m'
+M='\033[1;91m'
+R='\033[1;92m'
+A='\033[1;97m'
+N='\033[1;96m'
+🐸='\033[1;95m'
+🐸='\033[1;93m'
 
 #### exit ####
 def exb():
@@ -61,20 +61,18 @@ def trb():
 
 ##### LOGO #####
 logo='''
-\033[1;94m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-\033[1;94m ┈┈┈▕▕B4 M4▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕B4 M4▏▏┈┈┈
-\033[1;94m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mShabirBaloch.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
-\033[1;96m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
-\033[1;96m ╱▔▔▔▔┊┊┊┊▔▔▔▔╲☞☞☞☞☞☞\033[1;91m☜☜☜☜☜╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-\033[1;96m................\033[1;93mShabirBaloch\033[1;91m...............
-\033[1;96m................\033[1;93m✬🄵🄰🄲🄴🄱🄾🄾🄺✬\033[1;91m..............
+\033[1;95m☞██╗███╗░░░███╗██████╗░░█████╗░███╗░░██╗
+\033[1;95m☞██║████╗░████║██╔══██╗██╔══██╗████╗░██║"""
+\033[1;95m☞██║██╔████╔██║██████╔╝███████║██╔██╗██║
+\033[1;95m☞██║██║╚██╔╝██║██╔══██╗██╔══██║██║╚████║
+\033[1;95m☞██║██║░╚═╝░██║██║░░██║██║░░██║██║░╚███║
+\033[1;95m☞╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-\033[1;91m☞ Auther     : B4_BALOCH_M4_MASTER
-\033[1;92m☞ WhatsApp   : 03232132362
-\033[1;95m☞ YouTube    : https://www.youtube.com/channel/UCAGKWM8EwDFZ9sP8CdJhGBA
+\033[1;91m☞ Auther     : KHONDOKAR IMRAN
+\033[1;92m☞ WhatsApp   : 01316577116
+\033[1;95m☞ FACEBOOK     : https://www.facebook.com/Khondokar.Imran273
 
 \033[1;93m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                                 '''
@@ -105,7 +103,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://www.youtube.com/channel/UCAGKWM8EwDFZ9sP8CdJhGBA')
+		    os.system('xdg-open https://www.facebook.com/Khondokar.Imran273')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
@@ -164,7 +162,7 @@ def mb():
 	elif bm =='1':
 		pak()
 	elif bm =='2':
-	    os.system('rm -rf $HOME/B4_BALOCH')
+	    os.system('rm -rf $HOME/IMRAN-_')
 	    os.system('cd $HOME && git clone https://github.com/shabirbaloch125/Baloch')
 	    cb()
 	    print (logo)
@@ -179,17 +177,17 @@ def mb():
 	    psb('☆☆☆☆☆☆☆☆☆90%')
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 	    psb('Frends login new Account✓')
-	    psb('WhatsApp Num 03232132362✓')
-	    psb('WellCome To B4_BALOCH')
-	    psb('Congratulations B4_BALOCH Tool Has Been Updated Successfully')
-	    psb('🔓User Name☆ 786786✓')
-	    psb('🔓Password ☆ 786786✓')
-	    psb('Subscrib My Youtube Channel B4 BALOCH M4 MASTER✓')
+	    psb('WhatsApp Num 01316577116✓')
+	    psb('WellCome To imran')
+	    psb('Congratulations IMRAN-_ Tool Has Been Updated Successfully')
+	    psb('🔓User Name☆ imran✓')
+	    psb('🔓Password ☆ imran✓')
+	    psb('Fullow my facebook account✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/B4_BALOCH && python2 B4.py')
+	    os.system('cd $HOME/IMRAN-_ && python2 imran.py')
 	elif bm =='3':
-	    os.system('xdg-open https://chat.whatsapp.com/BcmyQPBz6lz3t6oVN8wLoi')
+	    os.system('xdg-open https://www.facebook.com/Khondokar.Imran273')
 	    menu()
 	elif bm =='4':
 		psb('Token Has Been Removed')
@@ -357,7 +355,7 @@ def pb():
 	print(S+'BlackMafia')     
 	print
 	raw_input(R + 'Back')
-	os.system('python2 B4.py')
+	os.system('python2 IMRAN-_.py')
 if __name__=='__main__':
     login()
 
